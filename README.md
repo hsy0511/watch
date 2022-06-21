@@ -19,7 +19,7 @@ getTime이라는 함수를 만들어 줍니다.
 
 함수 안에 date, hour, minutes, seconds, time 변수를 선언해 주고 h1.textContent 값을 time으로 선언합니다.
 
-변수들은 현재 시각을 알 수 있는 date.get 코드를 통해 시, 분, 초를 나타내도록 선언해줍니다.
+변수들은 현재 시각을 알 수 있는 date.get 코드를 통해 시, 분, 초를 알 수 있게하고 h1.textContent를 통해 텍스트를 나타내도록 선언해줍니다.
 
 그리고 go를 클릭하면 handleld=setInterval(getTime,1000)이라는 코드를 통해 현재 시간을 흐르도록하고, stop을 누르면 handleld가 다시 0이 되기 때문에 시간이 멈추게 되는 코드를 씁니다.
 
